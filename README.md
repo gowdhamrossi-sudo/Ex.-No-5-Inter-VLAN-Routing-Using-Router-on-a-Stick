@@ -12,6 +12,9 @@ ________________________________________
 •	Straight-through Ethernet cables<br>
 ________________________________________
 # Network Topology Diagram
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0748636c-34b7-42c7-9e9d-b8a820aa0f38" />
+
 # Description:
 •	PC0 and PC1 belong to VLAN 10 (192.168.10.0/24)<br>
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
@@ -87,10 +90,31 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on the switch<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/80d9ca18-93b7-44be-bb9b-b2dd64c7ac71" />
+
 •	Router subinterface configuration<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/af13b373-0337-4de2-b5bb-336e89f90bd7" />
+
 •	PC IP settings<br>
+PC1
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/cd432dbf-c4b4-4cba-ba71-f978cd0dc549" />
+
+PC2
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7231a1f8-493a-4904-b747-d64edaaa0073" />
+
+PC3
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0737e0dd-b653-4ca0-b9e2-2a2ec2489e70" />
+
+PC4
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0effcc7a-a833-4b10-af5e-4b6882e4c5a9" />
+
 •	Successful ping between PCs in different VLANs after routing<br>
+<img width="1920" height="1200" alt="Screenshot (223)" src="https://github.com/user-attachments/assets/cdfab1b0-9996-4e26-8577-fd0572f7c6cc" />
+
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1200" alt="Screenshot (221)" src="https://github.com/user-attachments/assets/f7de5f12-f3b9-4b09-a1f1-0ae5efcb8213" />
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
